@@ -1,0 +1,451 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #445161;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+.wrapper {
+  margin: 0 50px;
+  padding-top: 3%;
+  min-height: inherit;
+}
+
+.Header {
+  background: #445162;
+  color: #ffff;
+  min-height: 322px;
+}
+
+.productImage {
+  float: right;
+  max-width: 30%;
+  height: 215px;
+}
+
+.Header .icon img {
+  display: block;
+  margin: 15px;
+  margin-left: 0;
+}
+
+.icon {
+  max-width: 4%;
+  float: left;
+  margin-top: 3%;
+}
+
+.productInfo {
+  font-size: 20px;
+  float: left;
+  margin-top: 3%;
+}
+
+.productInfo p {
+  line-height: 14px;
+}
+
+.productName {
+  max-width: 20%;
+  font-size: 44px;
+  min-height: 44px;
+  color: #ffff;
+}
+
+.About {
+  background: #ffffff;
+  color: black;
+  min-height: 343px;
+}
+
+.About h1 {
+  text-align: justify;
+}
+
+.About img{
+  float: right;
+  height: 200px;
+}
+
+.article {
+  float: left;
+  max-width: 60%;
+}
+
+.Pluses {
+  background: #f5f5f5;
+  color: black;
+  min-height: 417px;
+}
+
+.plusRow1 {
+  max-width: 50%;
+  height: 300px;
+  float: left;
+}
+
+.plusRow2 {
+  max-width: 50%;
+  height: 300px;
+  float: left;
+}
+
+.plusIcons {
+  box-sizing: border-box;
+  max-width: 20%;
+  float: left;
+  height: inherit;
+}
+
+.Pluses img{
+  display: block;
+  margin-bottom: 67px;
+}
+
+.articles {
+  margin-left: 2%;
+  max-width: 80%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.articles p{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.Scrinshots {
+  background: #ffffff;
+  color: black;
+  min-height: 488px;
+}
+
+
+.description {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  padding-bottom: 30px;
+}
+
+.desc_text {
+  float: left;
+  width: 360px;
+}
+
+.desc_photo {
+  float: left;
+  width: 200px;
+}
+
+.Reviews {
+  background: #f5f5f5;
+  color: black;
+  min-height: 424px;
+}
+
+.Reviews img {
+  float: left;
+  width: 75px;
+  height: 75px;
+	display: block;
+	border-radius: 100px; /* Радиус скругления */
+                        /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+	margin: 0 auto;
+}
+
+.rev_field {
+  float: left;
+  background: #99ffff;
+  border-radius:10px;
+  border:2px solid #fff;
+  width: 80%;
+  height: 120px;
+  margin-left: 20px;
+  position:relative;
+}
+
+.rev_field:before {
+	border:15px solid transparent;
+	border-right-color:white;
+	position:absolute;
+	right:100%;
+	top:25px;
+	content:'';
+}
+
+.rev_field:after {
+	border:15px solid transparent;
+	border-right-color:#99ffff;
+	position:absolute;
+	right:100%;
+	top:27px;
+	content:'';
+}
+
+.Reviews .desc_text {
+  width: 480px;
+  margin: 15px;
+}
+
+.Buy {
+  background: #ffffff;
+  color: black;
+  min-height: 655px;
+}
+
+.Buy .wrapper {
+  padding-left: 122px;
+  padding-right: 122px;
+}
+
+.Buy p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+  line-height: 5px;
+}
+
+.price {
+  position: absolute;
+  background: #fff;
+  min-height: 70px;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 70px;
+  color: #445162;
+}
+
+.list {
+  position: absolute;
+  top: 130px;
+  width: 262px;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+.words{
+  font-size: 14px;
+  color: #fff;
+}
+
+.standart {
+  box-sizing: border-box;
+  position: relative;
+  top: 203px;
+  float: left;
+  width: 30%;
+  margin: 1.6%;
+  min-height: 307px;
+  background: #445162;
+  border-radius: 6px;
+}
+
+.premium {
+  box-sizing: border-box;
+  position: relative;
+  top: 106px;
+  float: left;
+  width: 30%;
+  margin: 1.6%;
+  min-height: 404px;
+  background: #445162;
+  border-radius: 6px;
+}
+
+.lux {
+  box-sizing: border-box;
+  position: relative;
+  top: 2px;
+  float: left;
+  width: 30%;
+  margin: 1.6%;
+  min-height: 508px;
+  background: #445162;
+  border-radius: 6px;
+}
+
+.payButton {
+  position: absolute;
+  background: #fff;
+  width: 262px;
+  height: 41px;
+  bottom: 20px;
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 6px;
+  line-height: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #445162;
+
+}
+
+.payButton:hover {
+  background: #E4FF95;
+}
+
+
+.Contacts {
+  background: #445162;
+  color: black;
+  min-height: 507px;
+}
+
+.Contacts h1 {
+  color: #fff;
+}
+
+form {
+  float: left;
+  box-sizing: border-box;
+  min-height: 355px;
+  max-width: 500px;
+  margin-left: 200px;
+}
+
+input {
+  display: block;
+  height: 40px;
+  min-width: 492px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #445162;
+}
+
+::-webkit-input-placeholder
+{
+  color:#445162;
+}
+
+.add__text {
+  min-height: 170px;
+  width: 490px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #445162;
+}
+
+.sendButton {
+  min-height: 40px;
+  max-width: 141px;
+  line-height: 40px;
+  background: #fff;
+  color: #445162;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.payCardButton {
+  min-height: 40px;
+  max-width: 141px;
+  line-height: 40px;
+  background: #fff;
+  color: #445162;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.payCardButton:hover {
+  background: #F8FFB2;
+  cursor: pointer;
+}
+
+.links {
+  float: left;
+  min-height: 250px;
+  max-width: 240px;
+  margin-left: 45px;
+}
+
+.link_row {
+  min-height: 25px;
+  display: block;
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.link_row img {
+  float: left;
+  position: absolute;
+}
+
+.link_row p {
+  float: left;
+  position: absolute;
+  color: #fff;
+  margin-top: 4px;
+  left: 30px;
+}
+
+.Footer {
+  background: #ffffff;
+  color: #445162;
+  min-height: 33px;
+  text-align: center;
+  line-height: 33px;
+  font-size: 12px;
+}
+
+.Payment {
+  position: relative;
+  background: #6DC7F4;
+  min-height: 655px;
+}
+
+.Payment form {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+
+}
+
+.Payment p {
+  margin-bottom: 2px;
+}
+
+.cards img {
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.backButton {
+  min-height: 40px;
+  max-width: 141px;
+  background: #fff;
+  color: #445162;
+  line-height: 45px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  position: relative;
+  left: 355px;
+  bottom: 45px;
+}
+
+.backButton:hover {
+  background: #F8FFB2;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: #445162;
+}
