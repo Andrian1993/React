@@ -1,2 +1,7 @@
-# react-ru-tutorial
-Код для раздела [Добавить новость](https://maxfarseer.gitbooks.io/react-course-ru/content/dobavit_novost.html)
+# game on react "Find the word"
+Input your word, and input the letters to find this word
+
+How to run this code:
+1. Enter to path with code
+2. npm install express --save-dev
+3. npm start
