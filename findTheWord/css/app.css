@@ -1,0 +1,50 @@
+body {
+  background:  #66ffff;
+}
+
+.inputs {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.myWord {
+  float: left;
+  margin-right: 10%;
+}
+
+.article {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #3385ff;
+  text-align: center;
+}
+
+.leterIndex {
+  display: inline-block;
+}
+
+.mistakes {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color:  #ff0000;
+  text-align: center;
+}
+
+.mistakeBlock {
+  display: inline-block;
+  letter-spacing: 10px;
+}
+
+.checkWord {
+    margin: 0 auto;
+    width: 35%;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.moves {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color:   #1aff1a;
+  text-align: center;
+}
