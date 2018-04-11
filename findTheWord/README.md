@@ -1,5 +1,4 @@
-# game on react
-Find the word
+# game on react "Find the word"
 Input your word, and input the letters to find this word
 
 1. Enter to path with code
